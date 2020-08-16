@@ -238,7 +238,10 @@ a:hover {
   padding: 0 10px;
 }
 .zan {
+  font-size: 1.5rem;
+  color: rgba(68, 66, 66, 0.993);
   text-align: center;
+  line-height:2.3em;
   margin: 0 auto;
   margin-bottom: 50px;
   align-items: center;
@@ -248,8 +251,6 @@ a:hover {
 .zan img{
   width: auto;
   height: auto;
-
-
 }
 @media (max-width: 888px) {
   .post-navigation {
@@ -265,8 +266,8 @@ a:hover {
 
 .footer {
   padding-top: 30px;
-  font-size: 1.2rem;
-  color: #aaa;
+  font-size: 1.4rem;
+  color: rgba(170, 170, 170, 0.876);
 }
 
 .social {
