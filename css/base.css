@@ -135,16 +135,12 @@ a:hover {
 .avatar {
   text-align: center;
   padding-bottom: 30px;
+  line-height: 400px;
+  
+  margin-top: calc(100vw - 100%);
   margin-left: calc(100vw - 100%);
  position: relative;
-}
-.avatar:after{
-  content: "";
-  height: 0;
-  line-height:0;
-  visibility: hidden;
-  display: block;
-  clear: both;
+ padding-top: 100px;
 }
 
 .avatar img {
@@ -157,7 +153,17 @@ a:hover {
   transform: translate(-50%,-50%);
 
 }
-
+.avatar img:nth-of-type(2){
+  margin-top:200px ;
+}
+.avatar:after{
+  content: "";
+  height: 0;
+  line-height:0;
+  visibility: hidden;
+  display: block;
+  clear: both;
+}
 
 
 .content {
@@ -177,6 +183,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 300px;
 }
 
 .navbar ul li {
@@ -193,7 +200,7 @@ a:hover {
   padding-bottom: 2px;
 }
 
-.navbar ul li a:hover::after {
+.navbar ul li a:hover::after,.navbar ul li.active a::after{
   content: "";
   position: absolute;
   bottom: 20%;
@@ -205,7 +212,7 @@ a:hover {
   border-radius: 70%;
   transform: rotate(61.8deg);
 }
-.navbar ul li a:hover::before {
+.navbar ul li a:hover::before,.navbar ul li.active a::before{
   content: '';
   position: absolute;
   bottom: 5%;
@@ -221,17 +228,7 @@ a:hover {
   color: black;
 }
 
-.navbar ul li.active a::after {
-  content: "";
-  position: absolute;
-  bottom: -3px;
-  left: 0;
-  height: 8px;
-  opacity: 0.5;
-  background-color: gray;
-  width: 100%;
-  border-radius: 3px;
-}
+
 
 @media (max-width: 888px) {
   .navbar ul li {
