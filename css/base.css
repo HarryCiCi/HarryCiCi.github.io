@@ -275,11 +275,17 @@ a:hover {
   .post-navigation {
     padding: 20px 0;
   }
+  .zanshang{
+    width: 300px;
+  }
 }
 
 @media (max-width: 1200px) and (min-width: 887px) {
   .post-navigation {
     padding: 20px 20px;
+  }
+  .zanshang{
+    width: 300px;
   }
 }
 
