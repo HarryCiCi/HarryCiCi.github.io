@@ -136,20 +136,29 @@ a:hover {
   text-align: center;
   padding-bottom: 30px;
   margin-left: calc(100vw - 100%);
+ position: relative;
+}
+.avatar:after{
+  content: "";
+  height: 0;
+  line-height:0;
+  visibility: hidden;
+  display: block;
+  clear: both;
 }
 
 .avatar img {
-  height: 100px;
-  width: 100px;
+  position: absolute;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
 }
 
-.avatar .nickname {
-  font-size: 2rem;
-  font-weight: 600;
-  color: #666;
-  padding-top: 10px;
-}
+
 
 .content {
   clear: both;
@@ -177,6 +186,7 @@ a:hover {
   font-size: 1.6rem;
   font-weight: bold;
   text-align: center;
+  display:inline-block;
 }
 
 .navbar ul li a {
@@ -186,13 +196,25 @@ a:hover {
 .navbar ul li a:hover::after {
   content: "";
   position: absolute;
-  bottom: -3px;
-  left: 0;
-  height: 8px;
-  opacity: 0.3;
-  background-color: gray;
-  width: 100%;
-  border-radius: 3px;
+  bottom: 20%;
+  left: 67%;
+  height: 2.3em;
+  opacity: 0.8;
+  background-color: rgba(168, 162, 162, 0.5);
+  width: 15px;  
+  border-radius: 70%;
+  transform: rotate(61.8deg);
+}
+.navbar ul li a:hover::before {
+  content: '';
+  position: absolute;
+  bottom: 5%;
+  left: 67%;
+  height: 2.8em;
+  width: 1px; 
+  border-radius: 70%;
+  background-color: rgba(0, 0, 0, 0.952);
+  transform: rotate(61.8deg);
 }
 
 .navbar ul li.active a {
