@@ -237,7 +237,11 @@ a:hover {
 .post-navigation .page-num {
   padding: 0 10px;
 }
-
+.zan {
+  display: flex;
+  justify-items: center;
+  align-content: center;
+}
 @media (max-width: 888px) {
   .post-navigation {
     padding: 20px 0;
@@ -259,7 +263,10 @@ a:hover {
 .social {
   padding-bottom: 5px;
 }
+.reward {
+  text-align: center;
 
+}
 .social ul {
   text-align: center;
 }
