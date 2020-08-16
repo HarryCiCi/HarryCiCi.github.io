@@ -268,14 +268,10 @@ a:hover {
   align-content: center;
 }
 .zan img{
-  width: auto;
+ 
   height: auto;
 }
-@media (max-width: 400px){
-  .zanshang{
-    max-width: 70%;width: 370px;height: auto;
-  }
-}
+
 @media (max-width: 888px) {
   .post-navigation {
     padding: 20px 0;
