@@ -190,7 +190,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 190px;
+  margin-top: 200px;
 }
 
 .navbar ul li {
@@ -265,11 +265,11 @@ a:hover {
 }
 .zan {
   font-size: 1.5rem;
-  color: rgba(68, 66, 66, 0.993);
+  color: rgba(42, 40, 40, 0.993);
   text-align: center;
   line-height:2.3em;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
   align-items: center;
   justify-items: center;
   align-content: center;
@@ -295,7 +295,7 @@ a:hover {
 }
 
 .footer {
-  padding-top: 30px;
+  padding-top: 10px;
   font-size: 1.6rem;
   color: rgba(170, 170, 170, 0.876);
 }
@@ -303,10 +303,7 @@ a:hover {
 .social {
   padding-bottom: 5px;
 }
-.reward {
-  text-align: center;
 
-}
 .social ul {
   text-align: center;
 }
