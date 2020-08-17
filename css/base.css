@@ -116,13 +116,14 @@ a:hover {
   flex-shrink: 0;
   margin-right: 30px;
   color: #666;
-  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
+  /* font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif; */
 }
 
 .post-item .title {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+  color: black;
   word-wrap: break-word;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -245,7 +246,7 @@ a:hover {
 .post-navigation {
   font-size: 1.5rem;
   padding: 20px 90px;
-  text-align: right;
+  text-align:center;
   color: #666;
 }
 
