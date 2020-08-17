@@ -51,7 +51,7 @@ a:hover {
 }
 
 .header {
-  margin-top: 100px;
+  margin-top: 180px;
   padding: 50px 0;
 }
 
@@ -111,11 +111,12 @@ a:hover {
   font-size: 1.6rem;
   margin-bottom: 16px;
   align-items: center;
+  justify-items: center;
 }
 
 .post-item .time-m-d {
   flex-shrink: 0;
-  margin-right: 30px;
+  margin-right: 10px;
   color: #666;
   font-size: 1.3rem;
   /* font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif; */
@@ -125,7 +126,7 @@ a:hover {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   color: #000;
   word-wrap: break-word;
   overflow: hidden;
@@ -189,7 +190,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 270px;
+  margin-top: 180px;
 }
 
 .navbar ul li {
@@ -295,7 +296,7 @@ a:hover {
 
 .footer {
   padding-top: 30px;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: rgba(170, 170, 170, 0.876);
 }
 
@@ -316,8 +317,9 @@ a:hover {
 }
 
 .footer-more {
-  padding-bottom: 5px;
+  padding-bottom: 25px;
   text-align: center;
+  font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
 }
 
 
