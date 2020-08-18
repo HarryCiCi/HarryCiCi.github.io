@@ -7,15 +7,11 @@ for(let nav of navs) {
   if(navPath && navPath === pagePath) {
     nav.className = "nav-item active";
   }
-  if(nav.key=='music'){
-    bgs.style.width='100%';
-    bgs.style.backgroundImage='url(/images/index.jpg)';
+  if(navPath=='/music/'){
+    bgs.addClass("bgm");
   }
-  console.log(nav.key);
-  if(nav.key=='about'){
-    bgs.style.width='100%';
-    bgs.style.background='red';
-    bgs.style.backgroundImage='url(images/pabout.jpg)';
+  if(navPath=='/about/'){
+    bgs.addClass("bga");
   }
 }
 

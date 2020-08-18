@@ -55,7 +55,14 @@ a:hover {
   padding: 50px 0; 
   
 }
-
+.bgm{
+  width: 100%;
+  background-Image:url(/source/images/index.jpg);
+}
+.bga{
+  width: 100%;
+  background-Image:url(/source/images/pabout.jpg);
+}
 .container {
   width: 50%;
   margin: 0 auto;
