@@ -6,6 +6,7 @@ for(let nav of navs) {
   let navPath = nav.getAttribute("data-path");
   if(navPath && navPath === pagePath) {
     nav.className = "nav-item active";
+    bgs.css("backgroundImage","url(/source/images/index.jpg)");
   }
   if(navPath=='/music/'){
     bgs.css("backgroundImage","url(/source/images/index.jpg)");
