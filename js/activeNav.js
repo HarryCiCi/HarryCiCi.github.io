@@ -8,10 +8,12 @@ for(let nav of navs) {
     nav.className = "nav-item active";
   }
   if(nav.key=='music'){
-    bgs.width='100%'.backgroundImage='url(theme.avatar.bgp)';
+    bgs.style.width='100%';
+    bgs.style.backgroundImage='url(/images/index.jpg)';
   }
   if(nav.key=='about'){
-    bgs.width='100%'.backgroundImage='url(/images/pabout.jpg)';
+    bgs.style.width='100%';
+    bgs.style.backgroundImage='url(images/pabout.jpg)';
   }
 }
 
