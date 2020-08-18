@@ -13,6 +13,7 @@ for(let nav of navs) {
   }
   if(nav.key=='about'){
     bgs.style.width='100%';
+    bgs.style.background='red';
     bgs.style.backgroundImage='url(images/pabout.jpg)';
   }
 }
