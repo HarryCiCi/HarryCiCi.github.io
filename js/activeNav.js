@@ -11,6 +11,7 @@ for(let nav of navs) {
     bgs.style.width='100%';
     bgs.style.backgroundImage='url(/images/index.jpg)';
   }
+  console.log(nav.key);
   if(nav.key=='about'){
     bgs.style.width='100%';
     bgs.style.background='red';
