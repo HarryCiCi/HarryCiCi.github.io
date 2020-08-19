@@ -8,34 +8,19 @@ for(let nav of navs) {
   if(navPath && navPath === pagePath) {
     nav.className = "nav-item active";
   }
-  (function(nav){
-    nav.onclick = function(ev){
-      var ev = window.event || ev;//兼容
-      var targ = ev.target;
-      if(targ.innerHTML=='音樂  MUSIC'){
-          targ.style.background = 'green';
-      }
-      if(targ.getAttribute('keys')==='music'){
-        bgs.className='bgm';
-      }
-      if(targ.getAttribute('keys')==='about'){
-      
-        bgs.className='bga';
-      }
-      if(targ.getAttribute('keys')==='writings'){
-      
-        bgs.className='bgwrt';
-      }
-      if(targ.getAttribute('keys')==='art'){
-      
-        bgs.className='bgart';
-      }
-    }
-  })(nav);
+  if(nav.className === "nav-item active"&&nav.getAttribute('keys') === 'music'){
+    bgs.className='bgm';
   }
-  
+  if(nav.className === "nav-item active"&&nav.getAttribute('keys')==='about'){
 
+    bgs.className='bga';
+  }
+  if(nav.className === "nav-item active"&&nav.getAttribute('keys')==='writings'){
 
+    bgs.className='bgwrt';
+  }
+  if(nav.className === "nav-item active"&&nav.getAttribute('keys')==='art'){
 
-
-
+    bgs.className='bgart';
+  }
+}
