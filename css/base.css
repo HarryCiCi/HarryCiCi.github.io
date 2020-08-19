@@ -149,7 +149,7 @@ a:hover {
   text-align: center;
   padding-bottom: 30px;
   line-height: 400px;
-  
+  background-color: transparent;
   margin-top: calc(100vw - 100%);
   margin-left: calc(100vw - 100%);
  position: relative;
