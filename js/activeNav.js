@@ -8,10 +8,14 @@ for(let nav of navs) {
     nav.className = "nav-item active";
   }
   if(nav.getAttribute(key) == 'music'){
+   
+    body.style.color = '#39f';
     bgs.addClass('bgm');
   }
   if(nav.getAttribute(key) == 'about'){
+    bgs.style.color='#0f0'
     bgs.addClass('bga');
+    bgs.className=bgs.className+' '+'bgm';
   }
 }
 
