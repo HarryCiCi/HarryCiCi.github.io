@@ -10,19 +10,19 @@ for(let nav of navs) {
   }
   
 }
-navs.click((nav)=>{
-  if(nav.getAttribute('keys')==='music'){
+navs.on('click','li',()=>{
+  if(li.getAttribute('keys')==='music'){
     bgs.className='bgm';
   }
-  if(nav.getAttribute('keys')==='about'){
+  if(li.getAttribute('keys')==='about'){
   
     bgs.className='bga';
   }
-  if(nav.getAttribute('keys')==='writings'){
+  if(li.getAttribute('keys')==='writings'){
   
     bgs.className='bgwrt';
   }
-  if(nav.getAttribute('keys')==='art'){
+  if(li.getAttribute('keys')==='art'){
   
     bgs.className='bgart';
   }
