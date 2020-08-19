@@ -49,6 +49,10 @@ a:hover {
   justify-content: space-between;
   margin-left: calc(100vw - 100%);
 }
+#topt{
+  margin-top: 0;
+}
+
 
 .header {
   margin-top: 170px;
@@ -56,12 +60,10 @@ a:hover {
   
 }
 .bgm{
-  width: 30px;
-  background-Image:url(/images/index.jpg);
+  background:url(/images/index.jpg) no-repeat center center 100% 100%;
 }
 .bga{
-
-  background-Image:url(/source/images/pabout.jpg);
+  background:url(/images/pabout.jpg) no-repeat center center 100% 100%;
 }
 .container {
   width: 50%;
