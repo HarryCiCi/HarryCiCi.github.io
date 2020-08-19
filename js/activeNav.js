@@ -10,23 +10,28 @@ for(let nav of navs) {
   }
   
 }
-navs.on('click','li',()=>{
-  if(li.getAttribute('keys')==='music'){
+navs.onclick = function(ev){
+  var ev = window.event || ev;//兼容
+  var targ = ev.target;
+  if(targ.innerHTML=='音樂  MUSIC'){
+      targ.style.background = 'green';
+  }
+  if(targ.getAttribute('keys')==='music'){
     bgs.className='bgm';
   }
-  if(li.getAttribute('keys')==='about'){
+  if(targ.getAttribute('keys')==='about'){
   
     bgs.className='bga';
   }
-  if(li.getAttribute('keys')==='writings'){
+  if(targ.getAttribute('keys')==='writings'){
   
     bgs.className='bgwrt';
   }
-  if(li.getAttribute('keys')==='art'){
+  if(targ.getAttribute('keys')==='art'){
   
     bgs.className='bgart';
   }
-})
+}
 
 
 

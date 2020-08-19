@@ -51,6 +51,7 @@ a:hover {
 }
 #topt{
   margin-top: -170px;
+  padding-top: 170px;
 }
 
 
@@ -59,11 +60,7 @@ a:hover {
   padding: 50px 0; 
   
 }
-.header::before{
-  content: '';
-  height: 170px;
-  background: transparent;
-}
+
 .bgm{
   background: url(/images/index.jpg) no-repeat center;
   background-size: 100%;
