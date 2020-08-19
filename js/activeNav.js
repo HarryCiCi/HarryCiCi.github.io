@@ -12,10 +12,9 @@ for(let nav of navs) {
     topt.className='bgm';
   }
   if(nav.className === "nav-item active"&&nav.getAttribute('keys')==='about'){
-
     topt.className='bga';
   }
-  if(nav.className === "nav-item active"&&nav.getAttribute('keys')==='writings'){
+  if(nav.className === "nav-item active"&&nav.getAttribute('keys')==='wrtings'){
 
     topt.className='bgwrt';
   }

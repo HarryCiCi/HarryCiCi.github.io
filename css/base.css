@@ -62,11 +62,11 @@ a:hover {
 }
 
 .bgm{
-  background: url(/images/index.jpg) repeat center;
+  background: url(/images/index1.jpg) repeat center;
   background-size: 100%;
 }
 .bga{
-  background: url(/images/pabout.jpg) repeat center;
+  background: url(/images/me2.jpg) repeat center;
   background-size: 100%;
 }
 .bgwrt{
@@ -74,7 +74,7 @@ a:hover {
   background-size: 100%;
 }
 .bgart{
-  background: url(https://img.zcool.cn/community/019f735f28dcfba80120a821eb3e84.jpg@1280w_1l_2o_100sh.jpg) no-repeat center;
+  background: url(/images/artbg.jpg) no-repeat center;
   background-size: 100%;
 }
 
@@ -173,16 +173,16 @@ a:hover {
 
 .avatar img {
   position: absolute;
-  height: 300px;
-  width: 300px;
+  height: 280px;
+  width: 280px;
   border-radius: 50%;
-  top: 50%;
+  top: 48%;
   left: 50%;
   transform: translate(-50%,-50%);
 
 }
 .avatar img:nth-of-type(2){
-  width: 130px;
+  width: 110px;
   height: auto;
   margin-top:200px ;
 }
