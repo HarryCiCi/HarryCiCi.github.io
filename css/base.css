@@ -66,16 +66,17 @@ a:hover {
   background-size: 100%;
 }
 .bga{
-  background: url(/images/me2.jpg) no-repeat center;
+  background: url(/images/abme.jpg) no-repeat center;
   background-size: 100%;
+  z-index: 1000;
 }
 .bgwrt{
-  background: url(/images/yu2.jpg) no-repeat center;
+  background: url(/images/w1.png) no-repeat center;
   background-size: 100%;
   
 }
 .bgart{
-  background: url(/images/artbg.jpg) no-repeat center;
+  background: url(/images/meixue.jpg) no-repeat center;
   background-size: 100%;
 }
 
