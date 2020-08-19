@@ -9,10 +9,18 @@ for(let nav of navs) {
     nav.className = "nav-item active";
   }
   if(nav.getAttribute('keys')==='music'){
-    bgs.className=bgs.className+' '+'bgm';
+    bgs.className='bgm';
   }
   if(nav.getAttribute('keys')==='about'){
 
-    bgs.className=bgs.className+' '+'bgs';
+    bgs.className='bga';
+  }
+  if(nav.getAttribute('keys')==='writings'){
+
+    bgs.className='bgwrt';
+  }
+  if(nav.getAttribute('keys')==='art'){
+
+    bgs.className='bgart';
   }
 }

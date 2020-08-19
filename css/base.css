@@ -50,7 +50,7 @@ a:hover {
   margin-left: calc(100vw - 100%);
 }
 #topt{
-  margin-top: 0;
+  margin-top: -170px;
 }
 
 
@@ -60,11 +60,22 @@ a:hover {
   
 }
 .bgm{
-  background:url(/images/index.jpg) no-repeat center center 100% 100%;
+  background: url(/images/index.jpg) no-repeat center;
+  background-size: 100%;
 }
 .bga{
-  background:url(/images/pabout.jpg) no-repeat center center 100% 100%;
+  background: url(/images/pabout.jpg) no-repeat center;
+  background-size: 100%;
 }
+.bgwrt{
+  background: url(/images/bgwrt.jpg) no-repeat center;
+  background-size: 100%;
+}
+.bgart{
+  background: url(/images/bgart.jif) no-repeat center;
+  background-size: 100%;
+}
+
 .container {
   width: 50%;
   margin: 0 auto;
