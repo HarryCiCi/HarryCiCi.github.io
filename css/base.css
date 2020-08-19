@@ -62,16 +62,17 @@ a:hover {
 }
 
 .bgm{
-  background: url(/images/index1.jpg) repeat center;
+  background: url(/images/index1.jpg) no-repeat center;
   background-size: 100%;
 }
 .bga{
-  background: url(/images/me2.jpg) repeat center;
+  background: url(/images/me2.jpg) no-repeat center;
   background-size: 100%;
 }
 .bgwrt{
-  background: url(/images/wring.jpg) no-repeat center;
+  background: url(/images/yu2.jpg) no-repeat center;
   background-size: 100%;
+  
 }
 .bgart{
   background: url(/images/artbg.jpg) no-repeat center;
