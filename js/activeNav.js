@@ -1,20 +1,17 @@
 // which nav has active
 let navs = document.querySelectorAll('.nav-item');
-let bgs = document.querySelector('.header');
+let bgs = document.getElementById('bgs');
 let pagePath = window.location.pathname;
 for(let nav of navs) {
   let navPath = nav.getAttribute("data-path");
   if(navPath && navPath === pagePath) {
     nav.className = "nav-item active";
-    bgs.css("backgroundImage","url(images/pabout.jpg)");
+  }
+  if(nav.getAttribute(key) == 'music'){
     bgs.addClass('bgm');
   }
-  if(navPath=='/music/'){
-    bgs.css("backgroundImage","url(/source/images/index.jpg)");
-  }
-  if(navPath=='/about/'){
-    bgs.css("fontSize","30px");
-    bgs.css("backgroundImage","url(images/pabout.jpg)");
+  if(nav.getAttribute(key) == 'about'){
+    bgs.addClass('bga');
   }
 }
 
