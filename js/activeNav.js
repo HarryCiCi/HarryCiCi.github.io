@@ -8,19 +8,26 @@ for(let nav of navs) {
   if(navPath && navPath === pagePath) {
     nav.className = "nav-item active";
   }
+  
+}
+navs.click((nav)=>{
   if(nav.getAttribute('keys')==='music'){
     bgs.className='bgm';
   }
   if(nav.getAttribute('keys')==='about'){
-
+  
     bgs.className='bga';
   }
   if(nav.getAttribute('keys')==='writings'){
-
+  
     bgs.className='bgwrt';
   }
   if(nav.getAttribute('keys')==='art'){
-
+  
     bgs.className='bgart';
   }
-}
+})
+
+
+
+
