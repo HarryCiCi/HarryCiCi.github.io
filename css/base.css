@@ -23,7 +23,7 @@ html, body {
 /*滚动条中滑块部分*/
 ::-webkit-scrollbar-thumb {
   background-color: rgba(144,147,153,.5);
-  border-radius: 60%;
+  border-radius: 70%;
   transition: background-color 0.3s ease;
 }
 
@@ -62,19 +62,19 @@ a:hover {
 }
 
 .bgm{
-  background: url(/images/index.jpg) no-repeat center;
+  background: url(/images/index.jpg) repeat center;
   background-size: 100%;
 }
 .bga{
-  background: url(/images/pabout.jpg) no-repeat center;
+  background: url(/images/pabout.jpg) repeat center;
   background-size: 100%;
 }
 .bgwrt{
-  background: url(/images/bgwrt.jpg) no-repeat center;
+  background: url(/images/wring.jpg) no-repeat center;
   background-size: 100%;
 }
 .bgart{
-  background: url(/images/bgart.jif) no-repeat center;
+  background: url(https://img.zcool.cn/community/019f735f28dcfba80120a821eb3e84.jpg@1280w_1l_2o_100sh.jpg) no-repeat center;
   background-size: 100%;
 }
 

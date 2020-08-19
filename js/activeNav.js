@@ -1,6 +1,6 @@
 // which nav has active
 let navs = document.querySelectorAll('.nav-item');
-let bgs = document.getElementById('topt');
+let topt = document.getElementById('topt');
 
 let pagePath = window.location.pathname;
 for(let nav of navs) {
@@ -9,18 +9,18 @@ for(let nav of navs) {
     nav.className = "nav-item active";
   }
   if(nav.className === "nav-item active"&&nav.getAttribute('keys') === 'music'){
-    bgs.className='bgm';
+    topt.className='bgm';
   }
   if(nav.className === "nav-item active"&&nav.getAttribute('keys')==='about'){
 
-    bgs.className='bga';
+    topt.className='bga';
   }
   if(nav.className === "nav-item active"&&nav.getAttribute('keys')==='writings'){
 
-    bgs.className='bgwrt';
+    topt.className='bgwrt';
   }
   if(nav.className === "nav-item active"&&nav.getAttribute('keys')==='art'){
 
-    bgs.className='bgart';
+    topt.className='bgart';
   }
 }
