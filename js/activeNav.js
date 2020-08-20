@@ -2,7 +2,6 @@
 let navs = document.querySelectorAll('.nav-item');
 let topt = document.getElementById('topt');
 let tou = document.getElementById('tou');
-
 let pagePath = window.location.pathname;
 for(let nav of navs) {
   let navPath = nav.getAttribute("data-path");
@@ -27,7 +26,10 @@ for(let nav of navs) {
 }
 window.onscroll=()=>{
   let scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-  tou.style.width=(280-(scrollTop/7))+'px';
-  tou.style.height=(280-(scrollTop/7))+'px';
-  tou.style.opacity=(100-(scrollTop/100))+'%';
+  tou.style.cssText="width:"+(280-(scrollTop/5))+'px;'+"height:"+(280-(scrollTop/5))+'px;'+"filter: opacity("+(100-(scrollTop/100)*30)+'%'+");"+"filter: blur("+((scrollTop/100)*10)+'px'+")";
+  for(let nav of navs) {
+    if(nav.className === "nav-item active"&&nav.getAttribute('keys')==='about'){
+      topt.style.backgroundSize=(100-(scrollTop/100)*10)+'%'
+    }
+  }
 }
