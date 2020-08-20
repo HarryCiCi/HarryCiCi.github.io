@@ -1,6 +1,7 @@
 // which nav has active
 let navs = document.querySelectorAll('.nav-item');
 let topt = document.getElementById('topt');
+let tou = document.getElementById('tou');
 
 let pagePath = window.location.pathname;
 for(let nav of navs) {
@@ -13,6 +14,7 @@ for(let nav of navs) {
   }
   if(nav.className === "nav-item active"&&nav.getAttribute('keys')==='about'){
     topt.className='bga';
+    tou.style.display='none';
   }
   if(nav.className === "nav-item active"&&nav.getAttribute('keys')==='wrtings'){
 

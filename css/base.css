@@ -71,12 +71,12 @@ a:hover {
   z-index: 1000;
 }
 .bgwrt{
-  background: url(/images/w1.png) no-repeat center;
+  background: url(/images/wrtme.jpg) no-repeat center;
   background-size: 100%;
   
 }
 .bgart{
-  background: url(/images/meixue.jpg) no-repeat center;
+  background: url(/images/artme.jpg) no-repeat center;
   background-size: 100%;
 }
 
