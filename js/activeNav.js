@@ -27,7 +27,7 @@ for(let nav of navs) {
 }
 window.onscroll=()=>{
   let scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-  tou.style.width=(280-(scrolltop/7))+'px';
-  tou.style.height=(280-(scrolltop/7))+'px';
-  tou.style.opacity=(100-(scrolltop/100))+'%';
+  tou.style.width=(280-(scrollTop/7))+'px';
+  tou.style.height=(280-(scrollTop/7))+'px';
+  tou.style.opacity=(100-(scrollTop/100))+'%';
 }
