@@ -25,3 +25,9 @@ for(let nav of navs) {
     topt.className='bgart';
   }
 }
+window.onscroll=()=>{
+  let scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+  tou.style.width=(280-(scrolltop/7))+'px';
+  tou.style.height=(280-(scrolltop/7))+'px';
+  tou.style.opacity=(100-(scrolltop/100))+'%';
+}
