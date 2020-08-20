@@ -26,10 +26,11 @@ for(let nav of navs) {
 }
 window.onscroll=()=>{
   let scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-  tou.style.cssText="width:"+(280-(scrollTop/5))+'px;'+"height:"+(280-(scrollTop/5))+'px;'+"filter: opacity("+(100-(scrollTop/100)*30)+'%'+");"+"filter: blur("+((scrollTop/100)*10)+'px'+")";
+  tou.style.cssText="width:"+(280-(scrollTop/5))+'px;'+"height:"+(280-(scrollTop/5))+'px;'+"filter: opacity("+(100-(scrollTop/100)*50)+'%'+")";
   for(let nav of navs) {
     if(nav.className === "nav-item active"&&nav.getAttribute('keys')==='about'){
-      topt.style.backgroundSize=(100-(scrollTop/100)*10)+'%'
+      topt.style.backgroundSize=(100-(scrollTop/100)*2)+'%'
+      tou.style.display='none';
     }
   }
 }
